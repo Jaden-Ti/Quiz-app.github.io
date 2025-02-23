@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>Quiz App v1.0</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <hl>  Hard math quiz</hl>
+    </div>
+    
+
+    <div class="quiz-container">
+        <!-- progress bar-->
+        <div class="progress-bar-container" id="progress-bar-container">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+
+        <!-- Question label-->
+         <div class="question" id="question">
+            Question will be displayed here. press start to begin
+         </div>
+
+        <!-- Option buttons-->
+        <div class="options-container" id="options-container">
+
+        </div>
+
+        <!-- Score label-->
+
+        <div class="score">
+            <p id="score"> You scored 0 point(s) </p>
+            <p id="feedback"> </p>
+        </div>
+
+        <!-- Start button-->
+
+        <button class="start-btn" id="start-btn">  START </button>
+
+    </div>
+
+    <div class="timer" id="timer">
+        <span id="timerLabel"> 20 </span>
+    </div>
+
+    <script src="script.js"></script>
+
+   
+
+</body>
+</html>
+
